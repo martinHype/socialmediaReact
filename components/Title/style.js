@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native";
-import { getFontFamily } from "../../assets/fonts/helper";
+import { StyleSheet } from "react-native"
+import { getFontFamily } from "../../assets/fonts/helper"
 
 const style = StyleSheet.create({
     title: {
@@ -7,6 +7,6 @@ const style = StyleSheet.create({
         fontFamily: getFontFamily("Inter_18pt", "600"),
         fontSize: 24,
     },
-}) 
+});
 
 export default style;

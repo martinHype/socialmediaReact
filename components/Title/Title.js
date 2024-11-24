@@ -1,14 +1,14 @@
 import React from "react";
 import { Text } from "react-native";
-import style from "./style";
-import propTypes from "prop-types";
+import style from "./style"
+import PropTypes from "prop-types";
 
 const Title = props => {
-    return <Text style={style.tile}> {props.title} </Text>;
+    return <Text style={style.title}>{props.title}</Text>;
 }
 
-Title.PropTypes = {
-    title: propTypes.string.isRequired,
+Title.propTypes = {
+    title: PropTypes.string.isRequired,
 }
 
-export default Title; 
+export default Title;
